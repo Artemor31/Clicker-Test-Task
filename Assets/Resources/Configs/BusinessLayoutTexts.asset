@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 949c1d607a80486482d332309e9b08c7, type: 3}
+  m_Name: BusinessLayoutTexts
+  m_EditorClassIdentifier: 
+  _upgradeName: '''{0}'''
+  _level: "LVL \n{0}"
+  _income: "\u0414\u043E\u0445\u043E\u0434\n{0}$"
+  _cost: "\u0426\u0435\u043D\u0430: {0}$"
+  _upgradeIncome: "\u0414\u043E\u0445\u043E\u0434: + {0}%"
+  _boughtText: "\u041A\u0443\u043F\u043B\u0435\u043D\u043E"
+  _playerSoftFormat: "\u0411\u0430\u043B\u0430\u043D\u0441: {0}$"
+  _levelUpFormat: "LVL UP\n \u0426\u0435\u043D\u0430: {0}$"
