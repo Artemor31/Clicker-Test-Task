@@ -39,5 +39,11 @@ namespace CodeBase.Installers
 
     public void OnApplicationQuit() => 
         ApplicationQuited?.Invoke();
+
+    public void OnApplicationPause(bool pauseStatus)
+    {
+      if (pauseStatus)
+        ApplicationQuited?.Invoke();
+    }
   }
 }
